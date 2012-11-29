@@ -1,10 +1,129 @@
-<!doctype html>
-<html>
-   <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-     <title>Pauek</title>
-   </head>
-<body>
-  <h1>Pauek (aka Pau Fernández)</h1>
-</body>
-</html>
+---
+layout: default
+title: Pau Fernández (pauek)
+---
+
+<div id="content">
+<!-- Blog -->
+
+<h2>Blog</h2>
+
+<ul class="posts nobullet">
+  {% for post in site.posts %}
+  <li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<!-- C++ -->
+
+<h2>Educación</h2>
+<p>
+  Doy dos asignaturas sobre C++ en la <a href="http://www.eet.upc.edu/?set_language=es">EET</a>:
+  <a href="http://intranet.eet.upc.edu/?q=guia_docent/320095/2">Fonaments d'Informàtica</a> (FI)
+  i <a href="http://intranet.eet.upc.edu/?q=guia_docent/320099/2">Estructures de Dades i Orientació a Objectes</a> (EDOO).
+  
+  Todas mis clases estan <a href="http://www.youtube.com/user/paueky">grabadas en vídeo</a>, 
+  así como otros temas más divertidos.
+</p>
+
+<ul class="nobullet">
+  <li><a href="http://www.youtube.com/paueky">Mi canal en YouTube</a>, vídeos cortos sobre programación en C++.</li>
+  <li>
+    <a href="http://minidosis.org">MiniDosis</a>, estructura y documentación para el curso de C++.
+    <div class="comment">
+      Versiones especiales para <a href="http://minidosis.org/FI">FI</a> y <a href="http://minidosis.org/EDOO">EDOO</a>.
+    </div>
+  </li>
+</ul>
+
+<!-- Proyectos -->
+
+<h2>Programación</h2>
+<ul class="nobullet">
+  <li><a href="https://github.com/pauek/garzon">Garzón</a>, un juez para problemas de programación.</li>
+  <li><a href="https://github.com/pauek/miniwin">MiniWin</a>, una librería de gráficos minimalista.
+    <div class="comment">
+      <a href="http://miniwin.readthedocs.org/en/latest/">Documentación</a> y 
+      ejemplos: 
+      <a href="http://youtu.be/hSUtZowDDYk">pelotita con gravedad</a>, 
+      <a href="http://www.youtube.com/playlist?list=PLBF37E6885CD3A358">Tetris</a>, 
+      <a href="http://www.youtube.com/playlist?list=PLDD6B727E5B6B5E33">Asteroids</a>.
+    </div>
+  </li>
+  <li><a href="https://github.com/pauek/CodeBoard">CodeBoard</a>, una pizarra de código fuente en tiempo real.</li>
+  <li><a href="https://github.com/pauek/Mecano">Mecano</a>, un lenguaje experimental.</li>
+  <li><a href="https://github.com/pauek/arc-sbcl">arc-sbcl</a>, <a href="http://arclanguage.org">arc</a> implementado en <a href="http://www.sbcl.org/">SBCL</a>.</li>
+</ul>
+
+<!-- Publicaciones -->
+
+<h2>Ciencia</h2>
+<div class="article">
+  <h3><span class="year">2008</span>Superdiffusion and encounter rates in diluted, low dimensional worlds</h3>
+  <div class="details">
+    Frederic Bartumeus, <strong>Pau Fernández</strong>, M.G.E da Luz, J. Catalan, R.V. Solé and S. A. Levin<br />
+    <em>Eur. Phys. J. Special Topics 157, 157-166 (2008)</em><br />
+    <span class="doi">DOI: <a href="http://dx.doi.org/10.1140/epjst/e2008-00638-6">10.1140/epjst/e2008-00638-6</a><br /></span>
+  </div>
+</div>
+<div class="article">
+  <h3><span class="year">2007</span>Neutral Landscapes in Signaling Networks</h3>
+  <div class="details">
+    <strong>Pau Fernández</strong> and Ricard V. Solé<br />
+    <em>Proc. Roy. Soc. Interface 4(12), 41-47 (2007)</em><br />
+    <span class="doi">DOI: <a href="http://dx.doi.org/10.1098/rsif.2006.0152">10.1098/rsif.2006.0152</a><br />
+  </div>
+</div>
+<div class="article">
+  <h3><span class="year">2006</span>The Role of Computation in Complex Regulatory Networks</h3>
+  <div class="details">
+    <strong>Pau Fernández</strong> and Ricard V. Solé<br />
+    <em>in Scale-free Networks and Genome Biology, E. Koonin et al (eds.), Landes Bioscience, pp. 206-225 (2006)</em><br />
+    <a href="http://eurekah.com/abstract.php?chapid=2422&amp;bookid=163&amp;catid=30">Article</a> | <a href="http://arxiv.org/abs/q-bio.MN/0311012">Q-bio</a><br />
+  </div>
+</div>
+<div class="article">
+  <h3><span class="year">2005</span>Graphs as Models of Large-scale Biochemical Organization</h3>
+  <div class="details">
+    <strong>Pau Fernández</strong> and Ricard V. Solé<br />
+    <em>in Complexity in Chemistry, Biology, and Ecology. D. Bonchev and D. H. Rouvray, eds. Springer, New York 2005, pp. 155-189 (2005)</em><br />
+    
+  </div>
+</div>
+<div class="article">
+  <h3><span class="year">2003</span>Adaptive Walks in a Gene Network Model of Morphogenesis: insights into the Cambrian Explosion</h3>
+  <div class="details">
+    Ricard V. Solé, <strong>Pau Fernández</strong> and Stuart A. Kauffman<br />
+    <em>Int. J. Dev. Biol. 47, 693-701 (2003)</em><br />
+    <a href='http://www.ijdb.ehu.es/abstract.03078/a685.htm'>Article</a> | <a href='http://arxiv.org/abs/q-bio.GN/0311013'>Q-bio</a>
+  </div>
+</div>
+<div class="article">
+  <h3><span class="year">2002</span>Spatial Patterns in Ant Colonies</h3>
+  <div class="details">
+    Guy Theraulaz <em>et al.</em><br />
+    <em>Proc. Natl. Acad. Sci. USA 99, 9645-9649 (2002)</em><br />
+    <span class="doi">DOI: <a href="http://dx.doi.org/10.1073/pnas.152302199">10.1073/pnas.152302199</a><br /></span>
+  </div>
+</div>
+<div class="article">
+  <h3><span class="year">2000</span>Pattern Formation and Optimization in Army Ant Raids</h3>
+  <div class="details">
+    Ricard V. Solé, Eric Bonabeau, Jordi Delgado, <strong>Pau Fernández</strong> and Jesus Marin <br />
+    <em>Artificial Life 6(3), 219-227 (2000)</em> <br />
+    <span class="doi">DOI: <a href="http://dx.doi.org/10.1162/106454600568843">10.1162/106454600568843</a> <br /></span>
+  </div>
+</div>
+
+</div>
+
+
+
+<script>
+$(document).ready(function () {
+   $(".article h3").click(function (ev) {
+      $(this).parent().find(".details").toggle();
+   });
+});
+</script>
+

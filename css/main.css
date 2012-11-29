@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
+html, body {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.98em;
+}
+body {
+  margin: auto;
+  width: 48em;
+}
+a {
+  color: #4b5e83;
+  text-decoration: none;
+}
+a:hover {
+  color: #29303d;
+}
+h2 {
+  color: #1f1d19;
+  font-size: 1.3em;
+  margin: .8em 0 .5em;
+}
+p {
+  margin: 0 0 .7em 1.5em;
+  max-width: 38em;
+}
+.details {
+  display: none;
+  margin-bottom: .4em;
+  margin-left: 2.7em;
+  font-size: .95em;
+}
+.doi {
+  font-family: monospace;
+}
+
+.article {
+  font-size: .9em;
+  margin-left: 1.5em;
+}
+.article strong {
+  font-weight: normal;
+  color: #444466;
+}
+.article h3 {
+  font-size: 1em;
+  color: #423f37;
+  margin: .4em 0 0 0;
+  cursor: pointer;
+}
+h3 .year {
+  font-weight: 600;
+  display: inline-block;
+  width: 3em;
+  font-weight: normal;
+  font-size: .85em;
+  color: #817B6B;
+}
+
+ul.nobullet {
+  padding-left: 1.5em;
+  margin-top: 0;
+}
+ul.nobullet li {
+  list-style-type: none;
+  margin-bottom: .5em;
+}
+
+.comment {
+  font-size: 90%;
+  margin-bottom: .2em;
+  margin-left: 1em;
+}
+
+#post h1 {
+  margin-bottom: 0;
+}
+#post {
+  color: #2c2a25;
+}
+#post p {
+  margin: 1em 0 1em 0;
+}
+#post h1 {
+  color: #423f37;
+  font-size: 1.6em;
+}
+ul.posts li span {
+  display: inline-block;
+  width: 6.7em;
+  color: #817B6B;
+  font-size: 90%;
+}
+ul.posts li a {
+  font-weight: 600;
+}
+
+time {
+  color: #c7c2b8;
+  font-size: .8em;
+}
+
+header {
+  font-weight: 300;
+  margin: 1.5em 0 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  color: #555;
+  font-size: .8em;
+  margin: 2.5em 0 1.5em;
+  padding-top: 1em;
+  padding-bottom: 5em;
+  border-top: 1px solid #ddd;
+}
