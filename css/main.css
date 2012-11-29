@@ -16,6 +16,7 @@ a:hover {
   color: #29303d;
 }
 h2 {
+  font-weight: 600;
   color: #1f1d19;
   font-size: 1.3em;
   margin: .8em 0 .5em;
@@ -102,8 +103,9 @@ time {
 
 header {
   font-weight: 300;
+  font-size: 1.4em;
   margin: 1.5em 0 1.5em;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
   border-bottom: 1px solid #ddd;
 }
 
