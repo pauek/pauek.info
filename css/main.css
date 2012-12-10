@@ -41,6 +41,15 @@ pre code {
 .doi {
   font-family: monospace;
 }
+.social {
+  position: absolute;
+  top: 8%;
+  margin-left: .5em;
+  display: inline-block;
+}
+.social a {
+  margin-bottom: -.2em;
+}
 
 .article {
   font-size: .9em;
@@ -111,12 +120,18 @@ time {
 }
 
 header {
+  position: relative;
   font-weight: 300;
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin: 1.5em 0 1.5em;
-  padding-bottom: .5em;
-  border-bottom: 1px solid #ddd;
+  padding-bottom: .25em;
+  border-bottom: 1px solid #f0f0f0;
 }
+
+header a       { color: #b0b0b0; }
+header a:hover { color: #707070; }
+header .social a       { color: #d0d0d0; }
+header .social a:hover { color: #909090; }
 
 footer {
   color: #555;
