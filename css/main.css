@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+
 html, body {
   height: 100%;
   font-family: "Open Sans", sans-serif;
@@ -7,7 +9,7 @@ html, body {
 }
 body {
   margin: auto;
-  width: 48em;
+  max-width: 38em;
 }
 a {
   color: #4b5e83;
@@ -17,13 +19,14 @@ a:hover {
   color: #29303d;
 }
 h2 {
-  font-weight: 600;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
   color: #1f1d19;
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin: .8em 0 .5em;
 }
 p {
-  margin: 0 0 .7em 1.5em;
+  margin: 0 0 .7em 0;
   max-width: 38em;
 }
 pre {
@@ -32,55 +35,53 @@ pre {
 pre code {
   font-family: "Source Code Pro", Consolas, Monaco, monospace;
 }
-.details {
-  display: none;
-  margin-bottom: .4em;
-  margin-left: 2.7em;
-  font-size: .95em;
-}
-.doi {
-  font-family: monospace;
-}
-.social {
-  position: absolute;
-  top: 8%;
-  margin-left: .5em;
-  display: inline-block;
-}
-.social a {
-  margin-bottom: -.2em;
+#content {
+  margin: 0 1rem;
+  padding-bottom: 8em;
 }
 
 .article {
   font-size: .9em;
-  margin-left: 1.5em;
+  margin-left: 2.2rem;
+  margin-bottom: .8em;
 }
 .article strong {
   font-weight: normal;
   color: #444466;
 }
 .article h3 {
+  display: inline-block;
   font-size: 1em;
   color: #423f37;
-  margin: .4em 0 0 0;
+  margin: 0;
   cursor: pointer;
 }
-h3 .year {
-  font-weight: 600;
+.year, .date {
   display: inline-block;
-  width: 3em;
-  font-weight: normal;
+  font-weight: 400;
   font-size: .85em;
   color: #817B6B;
 }
+.year { width: 2.2rem; margin-left: -2.2rem; }
+.date { width: 4rem;   margin-left: -4rem; }
+
+.details {
+  display: none;
+  margin-bottom: .4em;
+  font-size: .95em;
+}
+.doi {
+  font-family: monospace;
+}
+
 
 ul.nobullet {
-  padding-left: 1.5em;
+  padding-left: 0;
   margin-top: 0;
 }
 ul.nobullet li {
   list-style-type: none;
-  margin-bottom: .5em;
+  margin-bottom: .7em;
 }
 
 .comment {
@@ -90,28 +91,26 @@ ul.nobullet li {
 }
 #post {
   margin-bottom: 3em;
-}
-#post h1 {
-  margin-bottom: 0;
-}
-#post {
   color: #2c2a25;
 }
 #post p {
   margin: 1em 0 1em 0;
 }
 #post h1 {
+  margin-bottom: 0;
   color: #423f37;
   font-size: 1.6em;
 }
-ul.posts li span {
-  display: inline-block;
-  width: 6.7em;
-  color: #817B6B;
-  font-size: 90%;
+#post h2 {
+  margin-top: 1.5em;
+  font-weight: 600;
+  font-size: 1.3em;
 }
 ul.posts li a {
   font-weight: 600;
+}
+ul.posts li {
+  margin-left: 4rem;
 }
 
 time {
@@ -122,16 +121,26 @@ time {
 header {
   position: relative;
   font-weight: 300;
-  font-size: 1.3em;
-  margin: 1.5em 0 1.5em;
+  font-size: 1.4em;
+  margin: 1.5rem 1rem;
   padding-bottom: .25em;
   border-bottom: 1px solid #f0f0f0;
 }
+.social {
+  position: absolute;
+  top: .15rem;
+  margin-left: .5em;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+.social a {
+  margin-bottom: -.2em;
+}
 
 header a       { color: #b0b0b0; }
-header a:hover { color: #707070; }
+header a:hover { color: #404040; }
 header .social a       { color: #d0d0d0; }
-header .social a:hover { color: #909090; }
+header .social a:hover { color: #606060; }
 
 footer {
   color: #555;
