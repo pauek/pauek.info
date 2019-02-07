@@ -18,8 +18,8 @@ SuperCell, la empresa que desarrolla el juego:
 1. Las [Condiciones del Servicio](https://supercell.com/en/terms-of-service/) son
    muy claras al respecto:
 
-   "You shall not create an Account or access the Service if you are under the age of 13.
-   You shall restrict use by minors, and you will deny access to children under the _age of 13_.
+   "You shall not create an Account or access the Service if you are under the **age of 13**.
+   You shall restrict use by minors, and you will deny access to children under the **age of 13**.
    You accept full responsibility for any unauthorized use of the Service by minors. You are
    responsible for any use of your credit card or other payment instrument (e.g. paypal)
    by minors." [negrita añadida]
@@ -29,7 +29,7 @@ SuperCell, la empresa que desarrolla el juego:
 
 2. Lo recomienda la [guía para padres de la documentación del juego](https://supercell.helpshift.com/a/brawl-stars/?p=web&s=parents-guide)
    donde también se vuelve a mencionar la edad mínima de 13 años. Las razones que se dan son, entre otras:
-   1. Que se pueden comprar cosas a través de las compras _in-app_.
+   1. Que se pueden comprar cosas a través de las compras *in-app*.
    2. Que hay formas de abrir un chat con extraños.
    3. Que no hay privacidad (lo que escribas puede ser visto por cualquiera).
 
