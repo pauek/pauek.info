@@ -55,7 +55,7 @@ Aparte de esas, hay razones que provienen de nuestro criterio personal:
    más tiempo del que quisieran. El hecho de invertir excesivo tiempo y esfuerzo
    a un objetivo banal y sin límite, a mi parecer, no es bueno para niños en
    edad de aprender, porque consume una energía que necesitan para crecer
-   intelectualmente en direcciones de más útiles para su futuro.
+   intelectualmente en direcciones de más utilidad para su futuro.
 
 3. **La necesidad de progreso en el juego puede desconcentrar de las tareas diarias**.
    Una vez los niños estan metidos en la espiral del juego, en la cual
