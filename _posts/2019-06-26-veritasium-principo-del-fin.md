@@ -15,7 +15,7 @@ gusta la ciencia y disfrutamos viendo [el objeto más redondo del mundo](https:/
 o [cómo hacer pasar un círculo por un cuadrado](https://youtu.be/AvFNCNOyZeE).
 
 Al principio, YouTube era un sitio donde la gente ponía vídeos de forma
-totalmente *amateur*, con la única intención de indulgir los gustos de unos
+totalmente *amateur*, con la única intención de satisfacer los gustos de unos
 pocos fans o enseñarle cosas a otra gente (es [mi caso](https://www.youtube.com/user/paueky)
 también). Pero las cosas estan cambiando, y me parece entrever el principio del
 fin de algo que me gustaba.
@@ -50,7 +50,8 @@ son iguales, intentan tocar las mismas teclas. Para ver algo de ciencia te
 tienes que tragar una escena en que queman algo usando un lanzallamas o alguna
 tontería parecida. No sólo es Veritasium, es casi todo el mundo. Pero yo,
 sinceramente, me siento tratado de tonto, como si yo también fuera de esos que
-necesitan chorradas para divertirse. De pequeño me apartaba de la gente que se
+necesitan chorradas para divertirse. De pequeño me apartaba de la gente que 
+mata el tiempo con estas cosas, y no he dejado de hacerlo.
 
 Razón por la cual, es muy posible que me acabe cansando, y deje de ver a
 Veritasium, cuando creo que realmente es un *crack*. Y no sé a quién debo
