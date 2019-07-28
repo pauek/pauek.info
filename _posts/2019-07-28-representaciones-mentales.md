@@ -1,6 +1,6 @@
 ---
 layout: post
-title: El Espacio Disponible para las Representaciones Mentales
+title: El espacio disponible para las representaciones mentales
 ---
 
 # {{ page.title }}
