@@ -150,3 +150,12 @@ footer {
   padding-bottom: 5em;
   border-top: 1px solid #ddd;
 }
+
+.footnotes {
+  font-size: 86%;
+  border-top: 1px solid #aaa;
+  margin-top: 3em;
+}
+.footnotes ol {
+  padding-inline-start: 2em;
+}
