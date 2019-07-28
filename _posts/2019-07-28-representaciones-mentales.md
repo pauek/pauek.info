@@ -75,15 +75,15 @@ particular. Y eso afecta enormemente a nuestra percepción y en última instanci
 determina en parte quién somos.
 
 
-[^1]: De hecho, grados de prosopagnosia hay muchos, desde gente que tiene simple
+[^1]: Grados de prosopagnosia hay muchos, desde gente que tiene simple
       dificultad, hasta gente que no reconoce a los miembros de su propia familia
-      (los reconoce de otras maneras, con el olor, por la voz, etc.). Por otro lado
+      (los reconoce de otras maneras, por el olor, la voz, etc.). Por otro lado
       hay gente que es increíblemente buena reconociendo a otra gente (los
       [super-recognizers](https://www.superrecognisers.com/)).
 
 [^2]: Los ciegos tienen una gran parte del cerebro preparada para el procesado de la información visual pero 
       [se acaba usando para otras cosas, como el lenguaje](https://www.newscientist.com/article/2147696-blind-people-repurpose-the-brains-visual-areas-for-language/).
 
-[^3]: De hecho, hay gente que recuerda, a la perfección, [cada día de su vida](https://youtu.be/hpTCZ-hO6iI).
+[^3]: Hay gente que recuerda, a la perfección, [cada día de su vida](https://youtu.be/hpTCZ-hO6iI).
       (Aunque en este caso es probable que contribuyan otros factores aparte del tamaño
       de la zona que representa instantes de tiempo.)
