@@ -63,7 +63,11 @@ pre code {
   color: #817B6B;
 }
 .year { width: 2.2rem; margin-left: -2.2rem; }
-.date { width: 4rem;   margin-left: -4rem; }
+.date { 
+    width: 4rem;
+    margin-left: -3rem; 
+    margin-right: .7rem;
+}
 
 .details {
   display: none;
