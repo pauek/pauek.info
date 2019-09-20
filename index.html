@@ -12,7 +12,7 @@ title: Pau Fernández (pauek)
 </p>
     
 <p>
-  <span class="role">Profesor a tiempo completo</span> en el
+  <span class="role">Profesor</span> a tiempo completo en el
   <a href="http://www.cs.upc.edu">Departamento de Ciencias de la Computación</a> de la
   <a href="http://www.upc.edu">Universidad Politécnica de Catalunya</a>.
 </p>
@@ -40,16 +40,16 @@ title: Pau Fernández (pauek)
       <a href="https://www.upc.edu/content/grau/guiadocent/pdf/en/205216">Web Applications</a> (Javascript + NodeJS),
     </li>
     <li>
-      <a href="http://www.upc.edu/estudispdf/guia_docent.php?codi=804131&lang=cat">Tecnologías Multimedia Aplicadas VII</a> (Flutter),
+      <a href="http://www.upc.edu/estudispdf/guia_docent.php?codi=804131&lang=esp">Tecnologías Multimedia Aplicadas VII</a> (Flutter),
     </li>
     <li>
-      <a href="http://www.upc.edu/estudispdf/guia_docent.php?codi=804247&lang=cat">Dispositivos Móbiles</a> (Flutter),
+      <a href="http://www.upc.edu/estudispdf/guia_docent.php?codi=804247&lang=esp">Dispositivos Móviles</a> (Flutter),
     </li>
     <li>
-      <a href="http://www.upc.edu/estudispdf/guia_docent.php?codi=804125&lang=cat">Aplicaciones Web de Última Generación I</a> (Javascript + React),
+      <a href="http://www.upc.edu/estudispdf/guia_docent.php?codi=804125&lang=esp">Aplicaciones Web de Última Generación I</a> (Javascript + React),
     </li>
     <li>
-      <a href="http://www.upc.edu/estudispdf/guia_docent.php?codi=804127&lang=cat">Aplicaciones Web de Última Generación III</a> (React Native),
+      <a href="http://www.upc.edu/estudispdf/guia_docent.php?codi=804127&lang=esp">Aplicaciones Web de Última Generación III</a> (React Native),
     </li>
   </ul>
 </p>
@@ -77,7 +77,7 @@ title: Pau Fernández (pauek)
       <span class="date">{{ post.date | date: "%b %Y" }}</span>
     </td>
     <td>
-      <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <a class="post-title" href="{{ post.url }}">{{ post.title }}</a></li>
     </td>
   </tr>
   {% endfor %}
@@ -94,17 +94,6 @@ title: Pau Fernández (pauek)
     <a href="https://norvig.com/sudoku.html">solucionador de Sudokus de Peter Norvig</a>
   </li>
   <li>
-    <a href="https://github.com/pauek/SpeakerFeedback">SpeakerFeedback</a>, 
-    una <i>app</i> Android para votación de preguntas a un conferenciante, usando Firebase.
-  </li>
-  <li>
-    <a href="https://github.com/pauek/Ejemplos-Android">Ejemplos Android</a>, respositorio con aplicaciones Android de ejemplo.
-  </li>
-  <li>
-    <a href="https://github.com/pauek/minicc">MiniCC</a>, un intérprete de C++ para usos pedagógicos.</li>
-  <li>
-    <a href="https://github.com/pauek/garzon">Garzón</a>, un juez para problemas de programación.</li>
-  <li>
     <a href="https://github.com/pauek/miniwin">MiniWin</a>, una librería de gráficos minimalista.
     <div class="comment">
       <a href="http://miniwin.readthedocs.org/en/latest/">Documentación</a> y ejemplos: 
@@ -112,6 +101,18 @@ title: Pau Fernández (pauek)
       <a href="http://www.youtube.com/playlist?list=PLBF37E6885CD3A358">Tetris</a>, 
       <a href="http://www.youtube.com/playlist?list=PLDD6B727E5B6B5E33">Asteroids</a>.
     </div>
+  </li>
+  <li>
+    <a href="https://github.com/pauek/minicc">MiniCC</a>, un intérprete de C++ para usos pedagógicos.</li>
+  <li>
+    <a href="https://github.com/pauek/SpeakerFeedback">SpeakerFeedback</a>, 
+    una <i>app</i> Android para votación de preguntas a un conferenciante, usando Firebase.
+  </li>
+  <li>
+    <a href="https://github.com/pauek/Ejemplos-Android">Ejemplos Android</a>, respositorio con aplicaciones Android de ejemplo.
+  </li>
+  <li>
+    <a href="https://github.com/pauek/garzon">Garzón</a>, un juez para problemas de programación.
   </li>
   <li>
     <a href="https://github.com/pauek/CodeBoard">CodeBoard</a>, una pizarra de código fuente en tiempo real.
@@ -132,13 +133,3 @@ title: Pau Fernández (pauek)
 </p>
 
 </div>
-
-
-<script>
-$(document).ready(function () {
-   $(".article h3").click(function (ev) {
-      $(this).parent().find(".details").toggle();
-   });
-});
-</script>
-
