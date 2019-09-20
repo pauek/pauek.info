@@ -1,0 +1,28 @@
+Pelotas
+-------
+
+De cada penalti, al final el chutador y el portero se repartirán una
+pelota. Quizás el portero hizo el problema perfecto y el chutador no
+pudo replicar, con lo cual el portero se lleva la pelota entera. O el
+portero no pudo hacer nada y entonces el chutador pudo hacer él el
+problema y demostrar que lo sabía y así llevarse la pelota. O el
+portero resolvió el problema a medias y lo completó el chutador, y
+entonces cada uno se lleva media pelota. Las reglas son algo más
+complicadas de lo que quisiera, por eso en la presentación de Google Docs
+donde proyecto el orden de lanzamiento también tengo una transparencia
+de resumen sobre esto.
+
+Sea como sea, cada jugador está involucrado en dos penaltis, como
+chutador y como portero. Así que como mucho puede obtener dos
+pelotas. En el conjunto del equipo, por tanto, el máximo son 12
+pelotas y el mínimo 0. Para obtener la puntuación final de una
+jornada, se hace parecido al fútbol. Se considera una "derrota" que el
+equipo entero haya obtenido menos de 3 pelotas (menos de media por
+jugador), y eso otorga 0 puntos. El "empate" es a partir de 3 pero
+menos de 6 y otorga 1 punto. La "victoria" es desde 6 hasta 9, y da 3
+puntos. Y más de 9 es la "doble-victoria", que da 6 puntos. Tal como
+en el fútbol, ciertos resultados te acercan más o menos a los límites
+de cada tramo y eso produce ganancias o pérdidas grandes por pequeñas
+diferencias, que hace el juego más emocionante.
+
+En la siguiente parte os explico más detalles como la 
