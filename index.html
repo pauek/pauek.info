@@ -24,9 +24,9 @@ title: Pau Fernández (pauek)
 
 <h2>Docencia</h2>
 <p>
-  Soy profesor en varias asignaturas sobre programación en <a href="https://eseiaat.upc.edu">ESEIAAT</a> 
+  Soy profesor en varias asignaturas en <a href="https://eseiaat.upc.edu">ESEIAAT</a> 
   y el <a href="https://citm.upc.edu">CITM</a>:
-  <ul>
+  <ul class="courses">
     <li>
       <a href="https://www.upc.edu/grau/guiadocent/pdf/esp/320002/fundamentos-de-informatica.pdf">Fonaments d'Informàtica</a> (C++),
     </li>
@@ -69,11 +69,20 @@ title: Pau Fernández (pauek)
 
 <h2>Blog</h2>
 
-<ul class="posts nobullet">
+<div class="posts nobullet">
+  <table>
   {% for post in site.posts %}
-  <li><span class="date">{{ post.date | date: "%b %Y" }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+  <tr>
+    <td>
+      <span class="date">{{ post.date | date: "%b %Y" }}</span>
+    </td>
+    <td>
+      <a href="{{ post.url }}">{{ post.title }}</a></li>
+    </td>
+  </tr>
   {% endfor %}
-</ul>
+  </table>
+</div>
 
 
 <!-- Proyectos -->

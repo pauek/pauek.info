@@ -68,8 +68,6 @@ pre code {
 }
 .year { width: 2.2rem; margin-left: -2.2rem; }
 .date { 
-    width: 4rem;
-    margin-left: -3rem; 
     margin-right: .7rem;
 }
 
@@ -114,11 +112,11 @@ ul.nobullet li {
   font-weight: 600;
   font-size: 1.3em;
 }
-ul.posts li a {
+.posts a {
   font-weight: 600;
 }
-ul.posts li {
-  margin-left: 4rem;
+.posts td {
+  vertical-align: top;
 }
 
 time {
@@ -175,4 +173,14 @@ footer {
 }
 .footnotes ol {
   padding-inline-start: 2em;
+}
+
+.courses {
+  padding: 0;
+  padding-left: 1.5em;
+  margin-top: 0;
+}
+.courses li {
+  list-style-type: none;
+  margin-bottom: .25em;
 }
