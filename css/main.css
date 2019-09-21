@@ -131,16 +131,16 @@ time {
 }
 
 
-
-
 header {
-  position: relative;
   font-family: "Source Sans Pro";
   font-weight: 300;
-  font-size: 1.6em;
+  font-size: 1.35em;
   margin: 1rem 1rem;
-  padding-bottom: .1em;
-  padding-left: 60px;
+}
+header .whoami {
+  padding-left: 2em;
+  position: relative;
+  padding-bottom: .05em;
   border-bottom: 2px solid #f0f0f0;
 }
 header a       { color: #949494; }
@@ -148,22 +148,16 @@ header a:hover { color: #2c2c2c; }
 header .social a       { color: #b3b3b3; }
 header .social a:hover { color: #606060; }
 header .social {
-  position: absolute;
-  top: .35rem;
-  right: 0;
-  margin-left: .5em;
-  font-size: 1.4rem;
-  display: inline-block;
-}
-header .social a {
-  margin-bottom: -.2em;
+  margin-top: .15em;
+  font-size: 1.2rem;
+  text-align: right;
 }
 #face {
   position: absolute;
   left: 0;
   top: -2px;
-  width: 48px;
-  height: 48px;
+  width: 1.7em;
+  height: 1.7em;
   border-radius: 25px;
 }
 
