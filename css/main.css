@@ -130,6 +130,37 @@ time {
   font-size: .8em;
 }
 
+@media (max-width: 400px) {
+  header .social {
+    margin-top: .15em;
+    font-size: 1.3rem;
+    text-align: right;
+  }
+  header .social a { 
+    color: #b3b3b3; 
+  }
+  header .social a:hover { 
+    color: #606060; 
+  }
+}
+@media (min-width: 401px) {
+  header {
+    position: relative;
+  }
+  header .social {
+    position: absolute;
+    right: 0;
+    bottom: -.1em;
+    font-size: 1.4rem;
+    text-align: right;
+  }
+  header .social a { 
+    color: #b3b3b3; 
+  }
+  header .social a:hover { 
+    color: #606060; 
+  }
+}
 
 header {
   font-family: "Source Sans Pro";
@@ -140,19 +171,16 @@ header {
 header .whoami {
   padding-left: 2em;
   position: relative;
-  padding-bottom: .05em;
+  padding-bottom: .1em;
   border-bottom: 2px solid #f0f0f0;
 }
-header a       { color: #949494; }
-header a:hover { color: #2c2c2c; }
-header .social a       { color: #b3b3b3; }
-header .social a:hover { color: #606060; }
-header .social {
-  margin-top: .15em;
-  font-size: 1.2rem;
-  text-align: right;
+header a       { 
+  color: #949494; 
 }
-#face {
+header a:hover { 
+  color: #2c2c2c; 
+}
+header .whoami img {
   position: absolute;
   left: 0;
   top: -2px;
@@ -160,6 +188,7 @@ header .social {
   height: 1.7em;
   border-radius: 25px;
 }
+
 
 footer {
   color: #555;
