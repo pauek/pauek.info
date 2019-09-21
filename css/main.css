@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   font-family: "EB Garamond", serif;
-  font-size: 16pt;
+  font-size: 15pt;
   background: #fbfbfa;
 }
 body {
@@ -131,23 +131,14 @@ time {
 }
 
 
-.social {
-  position: absolute;
-  top: .35rem;
-  margin-left: .5em;
-  font-size: 1.4rem;
-  display: inline-block;
-}
-.social a {
-  margin-bottom: -.2em;
-}
+
 
 header {
   position: relative;
   font-family: "Source Sans Pro";
   font-weight: 300;
   font-size: 1.6em;
-  margin: 1.5rem 1rem;
+  margin: 1rem 1rem;
   padding-bottom: .1em;
   padding-left: 60px;
   border-bottom: 2px solid #f0f0f0;
@@ -156,6 +147,17 @@ header a       { color: #949494; }
 header a:hover { color: #2c2c2c; }
 header .social a       { color: #b3b3b3; }
 header .social a:hover { color: #606060; }
+header .social {
+  position: absolute;
+  top: .35rem;
+  right: 0;
+  margin-left: .5em;
+  font-size: 1.4rem;
+  display: inline-block;
+}
+header .social a {
+  margin-bottom: -.2em;
+}
 #face {
   position: absolute;
   left: 0;
