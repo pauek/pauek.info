@@ -99,22 +99,22 @@ buscan engancharnos indefinidamente:
       </td>
       <td colspan="1" rowspan="1" style="margin-right: 1em">
         <b>Obras de Arte</b><br />
-        <a href="http://gorogoa.com/">Gorogoa</a><br />
+        <a href="https://gorogoa.com/">Gorogoa</a><br />
         <a href="https://www.monumentvalleygame.com">Monument Valley 1 i 2</a><br />
         <a href="https://www.shadowmatic.com/">Shadowmatic</a><br />
-        <a href="http://www.prunegame.com/">Prune</a><br />
-        <a href="http://blekgame.com/">Blek</a><br />
-        <a href="http://framed-game.com/">Framed</a><br />
+        <a href="https://www.prunegame.com/">Prune</a><br />
+        <a href="https://blekgame.com/">Blek</a><br />
+        <a href="https://framed-game.com/">Framed</a><br />
       </td>
       <td colspan="1" rowspan="1">
          <div style="width: 2em"></div>
       </td>
       <td colspan="1" rowspan="1">
         <b>Aventuras</b><br />
-        <a href="http://amanita-design.net/games/chuchel.html">Chuchel</a><br />
-        <a href="http://amanita-design.net/games/samorost3.html">Samorost 3</a><br />
-        <a href="http://amanita-design.net/games/botanicula.html">Botanicula</a><br />
-        <a href="http://amanita-design.net/games/machinarium.html">Machinarium</a><br />
+        <a href="https://amanita-design.net/games/chuchel.html">Chuchel</a><br />
+        <a href="https://amanita-design.net/games/samorost3.html">Samorost 3</a><br />
+        <a href="https://amanita-design.net/games/botanicula.html">Botanicula</a><br />
+        <a href="https://amanita-design.net/games/machinarium.html">Machinarium</a><br />
       </td>
    </tr>
    <tr>
@@ -124,19 +124,19 @@ buscan engancharnos indefinidamente:
       <td></td>
       <td colspan="1" rowspan="1"  style="margin-right: 1em">
         <b>Rompecabezas</b><br />
-        <a href="http://play.threesgame.com/">Threes!</a><br />
-        <a href="http://agoodsnowman.com/">A Good Snowman</a><br />
-        <a href="http://snakebird.noumenongames.com/">Snakebird</a><br />
-        <a href="http://puzzleretreat.com/">Puzzle Retreat</a><br />
+        <a href="https://play.threesgame.com/">Threes!</a><br />
+        <a href="https://agoodsnowman.com/">A Good Snowman</a><br />
+        <a href="https://snakebird.noumenongames.com/">Snakebird</a><br />
+        <a href="https://puzzleretreat.com/">Puzzle Retreat</a><br />
         <a href="https://itunes.apple.com/us/app/push/id1257416763">Push</a><br />
-        <a href="http://www.puddingmonsters.com/">Pudding Monsters</a><br />
+        <a href="https://www.puddingmonsters.com/">Pudding Monsters</a><br />
         <a href="https://itunes.apple.com/us/app/the-mesh/id960744514">The Mesh</a><br />
       </td>
       <td></td>
       <td colspan="1" rowspan="1">
         <b>Acción</b><br />
         <a href="https://laracroftgo.square-enix-games.com/">Lara Croft GO</a><br />
-        <a href="http://www.tabletennistouch.com/">Table Tennis Touch</a><br />
+        <a href="https://www.tabletennistouch.com/">Table Tennis Touch</a><br />
         <a href="https://itunes.apple.com/us/app/mini-motor-racing/id426860241">Mini Motor Racing</a>
             <span style="font-size: 70%">(no freemium)</span><br />
         <a href="https://itunes.apple.com/us/app/trick-shot/id1016915419">Trick Shot</a><br />
