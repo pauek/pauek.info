@@ -1,9 +1,14 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { Blog, Codigo, Educacion, Docencia, Presentacion, Publicaciones } from '../components';
 
 export default function Home() {
   return (
-    <h1>Pauek</h1>
-  )
+    <div id="content">
+      <Presentacion />
+      <Docencia />
+      <Educacion />
+      <Blog />
+      <Codigo />
+      <Publicaciones />
+    </div>
+  );
 }

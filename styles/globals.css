@@ -1,16 +1,228 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  font-family: "EB Garamond", serif;
+  font-size: 15pt;
+  background: #fbfbfa;
 }
-
+body {
+  margin: auto;
+  max-width: 32em;
+}
 a {
-  color: inherit;
+  color: #2353b3;
   text-decoration: none;
 }
+a:hover {
+  color: #002364;
+}
+h1,
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+h2 {
+  color: #555350;
+  font-size: 1.25em;
+  margin: 1.2em 0 0.25em;
+}
+p {
+  margin: 0 0 0.7em 0;
+  max-width: 38em;
+}
+span.role {
+  /* font-style: italic; */
+  border-bottom: 2px dotted rgb(190, 188, 184);
+}
+pre {
+  padding-left: 2em;
+}
+pre code {
+  font-size: 0.8em;
+  font-family: monospace;
+}
+#content {
+  margin: 0 1rem;
+  padding-bottom: 8em;
+}
 
-* {
-  box-sizing: border-box;
+.article {
+  font-size: 0.9em;
+  margin-left: 2.2rem;
+  margin-bottom: 0.8em;
+}
+.article strong {
+  font-weight: normal;
+  color: #444466;
+}
+.article h3 {
+  display: inline-block;
+  font-size: 1em;
+  color: #423f37;
+  margin: 0;
+  cursor: pointer;
+}
+.year,
+.date {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 0.85em;
+  color: #817b6b;
+}
+.year {
+  width: 2.2rem;
+  margin-left: -2.2rem;
+}
+.date {
+  margin-right: 0.7rem;
+}
+
+.details {
+  display: none;
+  margin-bottom: 0.4em;
+  font-size: 0.95em;
+}
+.doi {
+  font-family: monospace;
+}
+
+ul.nobullet {
+  padding-left: 0;
+  margin-top: 0;
+}
+ul.nobullet li {
+  list-style-type: none;
+  margin-bottom: 0.7em;
+}
+
+.comment {
+  font-size: 90%;
+  margin-bottom: 0.2em;
+  margin-left: 1em;
+}
+#post {
+  font-size: 110%;
+  margin-bottom: 3em;
+  color: #2c2a25;
+}
+#post p {
+  margin: 1em 0 1em 0;
+}
+#post h1 {
+  margin-bottom: 0;
+  color: #423f37;
+  font-size: 1.6em;
+}
+#post h2 {
+  margin-top: 1.5em;
+  font-weight: 600;
+  font-size: 1.3em;
+}
+.posts a {
+  font-weight: 600;
+}
+.posts td {
+  vertical-align: top;
+  height: 1.2em;
+  padding-bottom: 0.4em;
+}
+.post-title {
+  font-family: "Source Sans Pro";
+}
+
+time {
+  color: #c7c2b8;
+  font-size: 0.8em;
+}
+
+@media (max-width: 400px) {
+  header .social {
+    margin-top: 0.15em;
+    font-size: 1.3rem;
+    text-align: right;
+  }
+  header .social a {
+    color: #b3b3b3;
+  }
+  header .social a:hover {
+    color: #606060;
+  }
+}
+@media (min-width: 401px) {
+  header {
+    position: relative;
+  }
+  header .social {
+    position: absolute;
+    right: 0;
+    bottom: -0.1em;
+    font-size: 1.4rem;
+    text-align: right;
+  }
+  header .social a {
+    color: #b3b3b3;
+  }
+  header .social a:hover {
+    color: #606060;
+  }
+}
+
+header {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  font-size: 1.35em;
+  margin: 1rem 1rem 1.5rem;
+}
+header .whoami {
+  position: relative;
+  padding-bottom: 0.1em;
+  border-bottom: 1px solid #ebebeb;
+  padding-right: 1rem;
+}
+header a {
+  color: #949494;
+}
+header a:hover {
+  color: #2c2c2c;
+}
+header .whoami .image {
+  display: inline-block;
+  position: relative;
+  width: 46px;
+  height: 46px;
+  bottom: -13px;
+}
+header .whoami .image img {
+  border-radius: 25px;
+}
+header .whoami .name {
+  margin-left: 0.5rem;
+}
+
+footer {
+  color: #555;
+  font-size: 0.8em;
+  margin: 2.5em 0 1.5em;
+  padding-top: 1em;
+  padding-bottom: 5em;
+  border-top: 1px solid #ddd;
+}
+
+.footnotes {
+  font-size: 86%;
+  border-top: 1px solid #aaa;
+  margin-top: 3em;
+}
+.footnotes ol {
+  padding-inline-start: 2em;
+}
+
+.courses {
+  padding: 0;
+  padding-left: 1.5em;
+  margin-top: 0;
+}
+.courses li {
+  list-style-type: none;
+  margin-bottom: 0.25em;
 }
