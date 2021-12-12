@@ -1,12 +1,8 @@
 ---
 layout: post
 title: El mundo de la educación online está que arde
+where: Barcelona
 ---
-
-{{ page.title }}
-================
-
-<time class="fecha">Agosto de 2012 - Barcelona</time>
 
 Esta última semana tengo la sensación de que el mensaje de Salman Khan
 (creador de [Khan Academy](http://minidosis.posterous.com/khanacademy.org)) 
@@ -16,8 +12,7 @@ más atractivo y completo. Incluso he estado pensando si no me
 equivoqué en el nombre... en fin, hay 2 nuevas ofertas de aprendizaje
 online, que os comento brevemente.
 
-Los cursos de Stanford
-----------------------
+## Los cursos de Stanford
 
 La semana pasada la Universidad de Stanford lanzó 3 cursos online
 (Inteligencia Artificial, Machine Learning y Bases de Datos) que se
@@ -47,8 +42,7 @@ gente de MIT, con el [OpenCourseWare](http://ocw.mit.edu/) (OCW). Pero estos 3 c
 Stanford se desmarcan mucho de OCW porque ofrecen mucho más al alumno.
 
 
-Codeacademy
------------
+## Codeacademy
 
 Luego, ayer se presentó un proyecto que es una idea parecida a
 minidosis pero en inglés: [Codecademy](http://codecademy.com/) (Academia de Programación). Yo me

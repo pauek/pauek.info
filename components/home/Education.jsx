@@ -1,4 +1,4 @@
-export const Educacion = () => {
+export const Education = () => {
   return (
     <>
       <h2>Educación</h2>

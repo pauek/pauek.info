@@ -24,7 +24,7 @@ h2 {
 h2 {
   color: #555350;
   font-size: 1.25em;
-  margin: 1.2em 0 0.25em;
+  margin: 1.4em 0 0.45em;
 }
 p {
   margin: 0 0 0.7em 0;
@@ -44,6 +44,10 @@ pre code {
 #content {
   margin: 0 1rem;
   padding-bottom: 8em;
+}
+
+#content img {
+  width: 100%;
 }
 
 .article {
@@ -133,6 +137,10 @@ ul.nobullet li {
 time {
   color: #c7c2b8;
   font-size: 0.8em;
+}
+
+header .social a {
+  margin-left: 0.25rem;
 }
 
 @media (max-width: 400px) {

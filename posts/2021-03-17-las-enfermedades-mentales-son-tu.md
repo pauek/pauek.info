@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Las enfermedades mentales son tú mismo
+where: Sant Cugat
 ---
-
-# {{ page.title }}
-
-<time class="fecha">Marzo de 2021 - Sant Cugat</time>
 
 Las enfermedades normales las puedes externalizar. Puedes tener una 
 lesión en el pie, una hernia discal, una úlcera, un herpes, o una infección de 

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Qué es minidosis y porqué lo he empezado
+where: Barcelona
 ---
-
-{{ page.title }}
-================
-
-<time class="fecha">Julio de 2011 - Barcelona</time>
 
 [http://minidosis.org](http://minidosis.org) es una web pensada para
 albergar cursos de programación (por ahora C++) hechos de lecciones

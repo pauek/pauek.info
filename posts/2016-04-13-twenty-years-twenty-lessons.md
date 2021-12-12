@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Resumen de "Twenty Years, Twenty Lessons"
+where: Sant Cugat
 ---
-
-{{ page.title }}
-================
-
-<time class="fecha">13 de Abril de 2016 - Sant Cugat</time>
 
 He estado mirando esta mañana la
 [charla de Mark Rosewater en GDC2016](http://www.gdcvault.com/play/1023186/Twenty-Years-Twenty)

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: La C++ Champions League (parte 1)
+where: Sant Cugat
 ---
-
-{{ page.title }}
-================
-
-<time class="fecha">Abril de 2015 - Sant Cugat</time>
 
 La [gamificación](http://es.wikipedia.org/wiki/Ludificaci%C3%B3n) está
 de moda: todo el mundo está
@@ -19,8 +15,7 @@ evitarte algunas de las magulladuras, rascadas y quizás hasta
 cicatrices que tendré por haberme tirado a la piscina. (Vale, en
 realidad había agua pero estaba bien fresquita.)
 
-La C++ Champions League
------------------------
+## La C++ Champions League
 
 Mi asignatura va sobre [programación](http://www.minidosis.org), y al
 haber mayoría de chicos decidí que para maximizar mis posibilidades de
@@ -49,8 +44,7 @@ problemas sacados de esa lista. Esto tiene un efecto interesante
 porque los problemas de esa lista adquieren un áurea dorada que hace
 que los alumnos estén mucho más motivados por saber resolverlos.
 
-Las urnas
----------
+## Las urnas
 
 La logística de la clase me produjo estrés durante varias sesiones,
 porque para que todo funcione bien cada alumno debe rellenar una
@@ -59,7 +53,7 @@ equipo al que quiere "atacar". Es un papelito cuadrado donde hay que
 poner DNI y equipo del chutador, problema elegido, y
 tiene esta pinta:
 
-![La papeleta del penalti](/img/papeleta.png)
+![La papeleta del penalti](/images/papeleta.png)
 
 A que está chula? En estas cositas gasté algo de tiempo porque me
 pareció que para hacerlo creíble, el juego tenía que hacerse con
@@ -89,8 +83,7 @@ cosa acabaría en distracción, pérdida de tiempo y credibilidad, etc.
 Se ve ahora lo del estrés?
 
 
-Impresión 3D al rescate
------------------------
+## Impresión 3D al rescate
 
 Así que viendo la situación y la posibildad de que los lanzamientos de
 penalti se sumiesen en la entropía, me monté un sistema para facilitar
@@ -99,13 +92,13 @@ jugador) e imprimí 8, de color negro, y a cada una le puse la etiqueta
 de un equipo. El diseño lo hice en FreeCAD gracias al
 [curso de Obijuan](https://youtu.be/2_DbFzFV9D4?list=PLmnz0JqIMEzWQV-3ce9tVB_LFH9a91YHf):
 
-![Diseño urna](/img/disenyo_urna.png)
+![Diseño urna](/images/disenyo_urna.png)
 
 Luego hice también unas cruces que permiten tapar una casilla para
 cuando en un equipo falta algun jugador. Esto se ve en la foto
 siguiente
 
-![Las urnas](/img/urnas.jpg)
+![Las urnas](/images/urnas.jpg)
 
 En la foto se ve otra cosa divertida y es que al principio de la liga,
 cuando se formaron los equipos, pedí a cada equipo que me hiciese un
@@ -120,8 +113,7 @@ ponen en las casillas vacías y se ve enseguida qué equipos tienen
 todas sus casillas llenas y cuáles no, con lo cual, el lanzamiento de
 penaltis se hace en 5 minutos como mucho.
 
-Esquema de la sesión
---------------------
+## Esquema de la sesión
 
 En realidad, el lanzamiento de penaltis se hace a mitad de la clase, y
 para entonces el ambiente está bastante tenso. A mis colegas les digo
@@ -147,8 +139,7 @@ estrategias y reparte como puede, pero pasada la hora de preparación,
 coloco las urnas en una mesa encima de la tarima del profesor y se
 hacen los lanzamientos.
 
-Parado, desviado o gol
-----------------------
+# Parado, desviado o gol
 
 Cuando las urnas estan llenas, las distribuyo a cada equipo y aquí
 viene una parte interesante. En realidad, pese a que el chutador puede
@@ -162,7 +153,7 @@ temas nuevos y los demás en temas anteriores.
 Para resolver los penaltis también reparto hojas con la cabecera
 siguiente:
 
-![Hoja problema](/img/hoja_problema.png)
+![Hoja problema](/images/hoja_problema.png)
 
 El portero debe copiar el contenido de la papeleta en la esquina de
 arriba a la derecha y luego entrar sus datos en la parte

@@ -1,14 +1,22 @@
-import { Blog, Codigo, Educacion, Docencia, Presentacion, Publicaciones } from '../components';
+import { BlogPostList, Projects, Teaching, Education, Presentation, Publications } from '../components';
+import { loadPosts } from '../model/posts';
 
-export default function Home() {
+export async function getStaticProps() {
+  const posts = await loadPosts();
+  return {
+    props: { posts },
+  };
+}
+
+export default function Home({ posts }) {
   return (
     <div id="content">
-      <Presentacion />
-      <Docencia />
-      <Educacion />
-      <Blog />
-      <Codigo />
-      <Publicaciones />
+      <Presentation />
+      <Teaching />
+      <Education />
+      <BlogPostList posts={posts} />
+      <Projects />
+      <Publications />
     </div>
   );
 }

@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Porqué Brawl Stars no es un juego para niños de primaria
+where: Sant Cugat
 ---
-
-# {{ page.title }}
-
-<time class="fecha">Febrero de 2019 - Sant Cugat</time>
 
 Vista la reciente "fiebre" con el Brawl Stars entre los niños de la escuela de mi hijo
 mayor (de 9 años), me ha parecido buena idea compartir mis razones para no dejarle

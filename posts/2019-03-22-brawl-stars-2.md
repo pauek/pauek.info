@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Porqué mi hijo jugará finalmente a Brawl Stars
+where: Sant Cugat
 ---
-
-# {{ page.title }}
-
-<time class="fecha">Marzo de 2019 - Sant Cugat</time>
 
 En un [artículo reciente](/2019/02/06/brawl-stars.html) comentaba porqué
 decidimos no dejar jugar a nuestro hijo mayor (de 9 años) al Brawl Stars. Este

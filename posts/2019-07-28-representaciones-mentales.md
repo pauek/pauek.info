@@ -1,11 +1,8 @@
 ---
 layout: post
 title: El espacio disponible para las representaciones mentales
+where: Sant Cugat
 ---
-
-# {{ page.title }}
-
-<time class="fecha">Julio de 2019 - Sant Cugat</time>
 
 Los antecedentes son los siguientes:
 
@@ -26,7 +23,7 @@ Los antecedentes son los siguientes:
 
 5. Alguna gente tiene déficits concretos en temas muy particulares. Dos casos
    son famosos: a) la prosopagnosia, que es la dificultad para reconocer caras
-   de personas [^1] y b) la dislexia, que es la dificultad para reconocer
+   de personas[^1] y b) la dislexia, que es la dificultad para reconocer
    palabras. Aparte de éstas, también se han catalogado otros tipos de déficits
    similares. 
 
@@ -45,7 +42,7 @@ Hay dos factores que confunden este análisis: la plasticidad y la motivación.
 
 La plasticidad hace que las zonas puedan irse expandiendo con el uso, así que
 algo que usas de forma muy frecuente luchará por espacio de representación en el
-neo-córtex, y ganará a las zonas que se usan menos [^2]. Pero el circuito
+neo-córtex, y ganará a las zonas que se usan menos[^2]. Pero el circuito
 inicial tiene bastante importancia, porque puede hacer que haya cosas que te
 salen desde niño con una facilidad que a los otros les parece asombrosa, o al
 revés.
@@ -65,7 +62,7 @@ esfuerzo, pero no me dedico a ellos por motivación intrínseca ni por trabajo.
 Por el contrario, siempre me equivoco al intentar recordar quién estaba presente
 conmigo en cada situación vivida, y si me dices un año, me cuesta mucho decirte
 qué hacía entonces, lo tengo que reconstruir usando pistas. Y en cambio hay
-gente que parece tener un mapa mental del tiempo [^3] y se mueve por él como si
+gente que parece tener un mapa mental del tiempo[^3] y se mueve por él como si
 lo viera (lo que hago yo con objetos tridimensionales).
 
 Está claro el efecto que puede tener la motivación, pero el resultado es que

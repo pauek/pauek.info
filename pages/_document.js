@@ -1,6 +1,7 @@
 
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
+
 const googleAnalyticsScript = `
 var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-36758965-1']);
@@ -30,6 +31,8 @@ class MyDocument extends Document {
             rel="alternate"
             title="Pau Fernández"
             type="application/atom+xml" />
+          <link href="" rel="stylesheet" />
+
         </Head>
         <body>
           <Main />

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Doble Frustración
+where: Sant Cugat
 ---
-
-{{ page.title }}
-================
-
-<time class="fecha">Mayo de 2015 - Sant Cugat</time>
 
 El alumno llegó 5 minutos antes de la hora del exámen para poder
 hojear los apuntes una última vez, como si eso fuera su

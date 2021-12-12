@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Mi algoritmo
+where: Sant Cugat
 ---
-
-Mi algoritmo
-============
-
-<time class="fecha">Diciembre de 2012 - Sant Cugat</time>
 
 ¿El secreto para la productividad y la felicidad? Ni idea.
 

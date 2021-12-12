@@ -1,10 +1,10 @@
-export const Docencia = () => {
+export const Teaching = () => {
   return (
     <>
       <h2>Docencia</h2>
       <div>
         <p>
-          Soy profesor en varias asignaturas en <a href="https://eseiaat.upc.edu">ESEIAAT</a>y el{" "}
+          Soy profesor en varias asignaturas en <a href="https://eseiaat.upc.edu">ESEIAAT</a> y el{" "}
           <a href="https://citm.upc.edu">CITM</a>:{" "}
         </p>
         <ul className="courses">

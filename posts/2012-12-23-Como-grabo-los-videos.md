@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Cómo grabo los vídeos
+where: Sant Cugat
 ---
-
-{{ page.title }}
-================
-
-<time class="fecha">Diciembre de 2012 - Sant Cugat</time>
 
 Mucha gente me pregunta sobre cómo hago
 [los vídeos](http://youtube.com/paueky). Y la verdad es que he pasado
@@ -15,8 +11,7 @@ bien que un perfeccionista necesita para estar tranquilo. Este *post*
 es para explicar cómo lo hago. Intento utilizar sólo
 [Software Libre](http://es.wikipedia.org/wiki/Software_libre).
 
-Herramientas
-------------
+## Herramientas
 
 Lo hago todo desde [Ubuntu Studio](http://ubuntustudio.org/):
 
@@ -56,8 +51,7 @@ Lo hago todo desde [Ubuntu Studio](http://ubuntustudio.org/):
   grabación se pasa codificando el vídeo un rato que me parece
   interminable, pero la calidad de esta manera es casi immejorable.
   
-Ubuntu Studio
--------------
+## Ubuntu Studio
   
 La razón de usar [Ubuntu Studio](http://ubuntustudio.org/) es que hace
 algún tiempo descubrí que instalando un kernel de Linux "real-time" el
@@ -82,9 +76,8 @@ porque la grabación es muchísimo mejor que con un Linux normal
 y los del
 [curso de Go](http://www.youtube.com/watch?v=D3pBazrwvOo&list=PL-DwF6obA18JuX-1GlaaikOSrO0cjH9HK)
 creo que se aprecia la diferencia.
-  
-Sin conversión
---------------
+
+## Sin conversión
 
 Al principio tenía que convertir el vídeo de OGV a MOV (QuickTime),
 para poderlo subir a YouTube y que mantuviese la calidad

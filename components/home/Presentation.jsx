@@ -1,4 +1,4 @@
-export const Presentacion = () => {
+export const Presentation = () => {
   return (
     <>
       <p>
@@ -8,7 +8,7 @@ export const Presentacion = () => {
       </p>
       <p>
         <span className="role">Profesor</span> a tiempo completo en el{" "}
-        <a href="https://www.cs.upc.edu">Departamento de Ciencias de la Computación</a> de la
+        <a href="https://www.cs.upc.edu">Departamento de Ciencias de la Computación</a> de la{" "}
         <a href="https://www.upc.edu">Universidad Politécnica de Catalunya</a>.
       </p>
     </>

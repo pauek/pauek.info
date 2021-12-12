@@ -1,11 +1,8 @@
 ---
 layout: post
 title: El principio del fin de Veritasium?
+where: Sant Cugat
 ---
-
-# {{ page.title }}
-
-<time class="fecha">Junio de 2019 - Sant Cugat</time>
 
 Durante mucho tiempo he visto vídeos de YouTube, de [Veritasium](https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA) y de muchos otros.
 Supongo que pertenezco a ese grupo, ahora llamados "frikis", que nos

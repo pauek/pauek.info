@@ -1,14 +1,10 @@
 ---
 layout: post
 title: Educando con Ori
+where: Sant Cugat
 ---
 
-{{ page.title }}
-================
-
-<time class="fecha">20 de Julio de 2017 - Sant Cugat</time>
-
-<img src="/img/ori.jpg" alt="Una imagen de Ori y el Bosque Ciego" style="width: 100%;"/>
+![Imagen de Ori y el Bosque Ciego](/images/ori.jpg)
 
 Todo empieza cuando casualmente compré el videojuego “Ori y el Bosque Ciego”
 ([Ori and the Blind Forest](https://www.orithegame.com/blind-forest/)). Lo
@@ -36,7 +32,7 @@ Así que me tiré a la piscina y un día le propuse a Enric, mi hijo de 7 años,
 jugar a Ori juntos y ver qué tal nos espabilábamos. Enric había estado jugando
 a Minecraft por su cuenta y también nos habíamos pasado juntos
 [Rime](https://www.greybox.com/rime/es/) dos semanas antes (qué juego tan
-precioso [^1]). Mi idea detrás de todo esto es siempre, en esencia, que si
+precioso[^1]). Mi idea detrás de todo esto es siempre, en esencia, que si
 Enric juega a juegos, no juegue solo y sin control. Que lo haga conmigo. Así
 puedo buscar juegos que me parecen buenos para él, y a la vez que me interesen
 a mí también. Si no lo hago así, le tendría que dejar el *tablet*. O aguantar
@@ -165,7 +161,7 @@ Ori, por el contrario, la recompensa es el juego en sí. Está tan bien hecho
 que quieres vivir ahí, es un regalo visual. Y Enric es un niño muy visual. Así
 que en Ori, el objetivo, que es llegar al final, implica un *entrenamiento a fondo* 
 para poder superar el juego. En sí mismo el entrenamiento no es muy útil
-para la vida real (como sí lo es la lecto-escritura [^2]). Pero de fondo hay el
+para la vida real (como sí lo es la lecto-escritura[^2]). Pero de fondo hay el
 tema de la persistencia, de clarificar cómo funciona la ecuación del tiempo
 dedicado y los resultados obtenidos durante ese entrenamiento, darse cuenta de
 cuál es tu equilibrio. Y más si tienes a álguien detrás, que te hace de

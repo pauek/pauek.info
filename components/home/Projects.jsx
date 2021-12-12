@@ -1,19 +1,19 @@
-export const Codigo = () => {
+export const Projects = () => {
   return (
     <>
-      <h2>Código</h2>
+      <h2>Proyectos</h2>
       <ul className="nobullet">
         <li>
-          <a href="https://github.com/pauek/norvig-sudoku">Implementación en C++</a> del
+          <a href="https://github.com/pauek/norvig-sudoku">Implementación en C++</a> del{" "}
           <a href="https://norvig.com/sudoku.html">solucionador de Sudokus de Peter Norvig</a>
         </li>
         <li>
           <a href="https://github.com/pauek/miniwin">MiniWin</a>, una librería de gráficos
           minimalista.
           <div className="comment">
-            <a href="https://miniwin.readthedocs.org/en/latest/">Documentación</a> y ejemplos:
-            <a href="https://youtu.be/hSUtZowDDYk">pelotita con gravedad</a>,
-            <a href="https://www.youtube.com/playlist?list=PLBF37E6885CD3A358">Tetris</a>,
+            <a href="https://miniwin.readthedocs.org/en/latest/">Documentación</a> y ejemplos:{" "}
+            <a href="https://youtu.be/hSUtZowDDYk">pelotita con gravedad</a>,{" "}
+            <a href="https://www.youtube.com/playlist?list=PLBF37E6885CD3A358">Tetris</a>,{" "}
             <a href="https://www.youtube.com/playlist?list=PLDD6B727E5B6B5E33">Asteroids</a>.
           </div>
         </li>
