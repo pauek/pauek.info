@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { BlogPostList, Projects, Teaching, Education, Presentation, Publications } from '../components';
 import { loadPosts } from '../model/posts';
 
@@ -10,13 +11,18 @@ export async function getStaticProps() {
 
 export default function Home({ posts }) {
   return (
-    <div id="content">
-      <Presentation />
-      <Teaching />
-      <Education />
-      <BlogPostList posts={posts} />
-      <Projects />
-      <Publications />
-    </div>
+    <>
+      <Head>
+        <title>Pauek&apos;s home page</title>
+      </Head>
+      <div id="content">
+        <Presentation />
+        <Teaching />
+        <Education />
+        <BlogPostList posts={posts} />
+        <Projects />
+        <Publications />
+      </div>
+    </>
   );
 }

@@ -22,7 +22,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="es">
         <Head>
           <meta name="author" content="Pau Fernández" />
           <meta name="description" content="Profesor en la UPC, Programador, Creador de minidosis.org" />
@@ -31,8 +31,6 @@ class MyDocument extends Document {
             rel="alternate"
             title="Pau Fernández"
             type="application/atom+xml" />
-          <link href="" rel="stylesheet" />
-
         </Head>
         <body>
           <Main />
