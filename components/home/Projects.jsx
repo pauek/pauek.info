@@ -42,9 +42,6 @@ export const Projects = () => {
           en tiempo real.
         </li>
         <li>
-          <a href="https://github.com/pauek/Mecano">Mecano</a>, un lenguaje experimental.
-        </li>
-        <li>
           <a href="https://github.com/pauek/arc-sbcl">arc-sbcl</a>,{" "}
           <a href="https://arclanguage.org">arc</a> implementado en{" "}
           <a href="https://www.sbcl.org/">SBCL</a>.
