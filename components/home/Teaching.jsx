@@ -4,7 +4,7 @@ export const Teaching = () => {
       <h2>Docencia</h2>
       <div>
         <p>
-          Soy profesor en varias asignaturas en <a href="https://eseiaat.upc.edu">ESEIAAT</a> y el{" "}
+          Soy o he sido profesor en varias asignaturas en <a href="https://eseiaat.upc.edu">ESEIAAT</a> y el{" "}
           <a href="https://citm.upc.edu">CITM</a>:{" "}
         </p>
         <ul className="courses">
@@ -44,13 +44,13 @@ export const Teaching = () => {
           </li>
           <li>
             <a href="https://www.upc.edu/estudispdf/guia_docent.php?codi=804125&lang=esp">
-              Aplic. Web de Última Generación I
+              Aplicaciones Web de Última Generación I
             </a>{" "}
             (React),
           </li>
           <li>
             <a href="https://www.upc.edu/estudispdf/guia_docent.php?codi=804127&lang=esp">
-              Aplic. Web de Última Generación III
+              Aplicaciones Web de Última Generación III
             </a>{" "}
             (React Native),
           </li>
