@@ -1,11 +1,9 @@
-import {
-  BlogPostList,
-  Education,
-  Presentation,
-  Projects,
-  Publications,
-  Teaching,
-} from "@/components";
+import { BlogPostList } from "@/components/home/BlogPostList";
+import { Education } from "@/components/home/Education";
+import { Presentation } from "@/components/home/Presentation";
+import { Projects } from "@/components/home/Projects";
+import { Publications } from "@/components/home/Publications";
+import { Teaching } from "@/components/home/Teaching";
 import { loadPosts } from "@/model/posts";
 
 export default async function Home() {

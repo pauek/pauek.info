@@ -18,7 +18,7 @@ export const Teaching = () => {
         </p>
         <ul className="courses">
           {(courses as Array<Course>).map((course) => (
-            <li>
+            <li key={course.href}>
               <a href={course.href}>{course.title}</a> ({course.content})
             </li>
           ))}

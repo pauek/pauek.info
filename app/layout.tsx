@@ -1,4 +1,4 @@
-import { Header } from "@/components";
+import { Header } from "@/components/Header";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from "next/script";
@@ -24,16 +24,6 @@ export default function RootLayout({ children }: Props) {
         <meta
           name="description"
           content="Profesor en la UPC, Programador, Creador de minidosis.org"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=EB+Garamond|Source+Sans+Pro&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://feeds.feedburner.com/pauek"
-          rel="alternate"
-          title="Pau Fernández"
-          type="application/atom+xml"
         />
         <title>Pauek&apos;s home page</title>
       </head>
