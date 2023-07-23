@@ -17,6 +17,9 @@ a {
   color: #2353b3;
   text-decoration: none;
 }
+header a, header a:hover {
+  color: inherit;
+}
 a:hover {
   color: #002364;
 }
@@ -111,11 +114,6 @@ ul.nobullet li {
 #post p {
   margin: 1em 0 1em 0;
 }
-#post h1 {
-  margin-bottom: 0;
-  color: #423f37;
-  font-size: 1.6em;
-}
 #post h2 {
   margin-top: 1.5em;
   font-weight: 600;
@@ -167,12 +165,6 @@ header .whoami {
   position: relative;
   padding-bottom: 0.1em;
   padding-right: 1rem;
-}
-header a {
-  color: #949494;
-}
-header a:hover {
-  color: #2c2c2c;
 }
 header .whoami .image {
   display: inline-block;

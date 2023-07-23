@@ -1,0 +1,22 @@
+[
+  {
+    "href": "https://youtube.com/paueky",
+    "ariaLabel": "Pauek's YouTube page",
+    "icon": "youtube"
+  },
+  {
+    "href": "https://twitter.com/pauek",
+    "ariaLabel": "Pauek's Twitter page",
+    "icon": "twitter"
+  },
+  {
+    "href": "https://github.com/pauek",
+    "ariaLabel": "Pauek's GitHub page",
+    "icon": "github"
+  },
+  {
+    "href": "https://www.linkedin.com/in/pauek/",
+    "ariaLabel": "Pauek's LinkedIn page",
+    "icon": "linkedin"
+  }
+]

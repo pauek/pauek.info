@@ -20,11 +20,11 @@ export default async function PostPage({ params }: Params) {
   return (
     <div id="content">
       <div id="post">
-        <h1>{title}</h1>
+        <h1 className="text-4xl mt-20 mb-2">{title}</h1>
         <time className="fecha">
           {where}, {date.long}
         </time>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <div className="mt-8" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </div>
   );
