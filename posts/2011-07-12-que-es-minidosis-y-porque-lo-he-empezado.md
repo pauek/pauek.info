@@ -4,10 +4,10 @@ title: Qué es minidosis y porqué lo he empezado
 where: Barcelona
 ---
 
-[http://minidosis.org](http://minidosis.org) es una web pensada para
+[https://minidosis.org](https://minidosis.org) es una web pensada para
 albergar cursos de programación (por ahora C++) hechos de lecciones
 muy cortas. El día que descubrí [Khan
-Academy](http://www.khanacademy.org) y también al ver los vídeos donde
+Academy](https://www.khanacademy.org) y también al ver los vídeos donde
 Salman Khan explica su filosofia pensé que tenia que intentar hacer
 algo parecido a lo que ha hecho.
 
@@ -36,7 +36,7 @@ algo así para la programación y además en castellano!! (Khan Academy
 está en inglés). Y por eso empecé. El canal está aquí:
 [http://www.youtube.com/user/paueky](http://www.youtube.com/user/paueky). Pero
 recientemente me he decidido a complementar los vídeos con otro
-material, el que hay en [minidosis.org](http://minidosis.org). Le he
+material, el que hay en [minidosis.org](https://minidosis.org). Le he
 llamado así porque me parece que suena bien y por otro lado intenta
 transmitir la idea de ir aprendiendo poco a poco. Mi profesora de
 piano me decía que no hay ningún jarabe ni cajita de pastillas para

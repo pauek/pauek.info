@@ -1,13 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   height: 100%;
   font-family: "EB Garamond", serif;
-  font-size: 15pt;
+  font-size: 12pt;
   background: #fbfbfa;
 }
 body {
   margin: auto;
-  max-width: 32em;
+  max-width: 38em;
 }
 a {
   color: #2353b3;
@@ -16,15 +20,10 @@ a {
 a:hover {
   color: #002364;
 }
-h1,
 h2 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 700;
-}
-h2 {
-  color: #555350;
   font-size: 1.25em;
   margin: 1.4em 0 0.45em;
+  font-weight: 500;
 }
 p {
   margin: 0 0 0.7em 0;
@@ -139,10 +138,6 @@ time {
   font-size: 0.8em;
 }
 
-header .social a {
-  margin-left: 0.25rem;
-}
-
 @media (max-width: 400px) {
   header .social {
     margin-top: 0.15em;
@@ -160,19 +155,6 @@ header .social a {
   header {
     position: relative;
   }
-  header .social {
-    position: absolute;
-    right: 0;
-    bottom: -0.1em;
-    font-size: 1.4rem;
-    text-align: right;
-  }
-  header .social a {
-    color: #b3b3b3;
-  }
-  header .social a:hover {
-    color: #606060;
-  }
 }
 
 header {
@@ -184,7 +166,6 @@ header {
 header .whoami {
   position: relative;
   padding-bottom: 0.1em;
-  border-bottom: 1px solid #ebebeb;
   padding-right: 1rem;
 }
 header a {
