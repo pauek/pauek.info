@@ -1,16 +1,13 @@
 import {
+  PostURLParams,
   getPostDataAsJSON,
   getPostHTML,
+  loadPostData,
   postURLToFilename,
 } from "@/model/posts";
 
 type Params = {
-  params: {
-    year: string;
-    month: string;
-    day: string;
-    slug: string;
-  };
+  params: PostURLParams;
 };
 
 export default async function PostPage({ params }: Params) {
@@ -28,4 +25,9 @@ export default async function PostPage({ params }: Params) {
       </div>
     </div>
   );
+}
+
+export async function generateStaticParams() {
+  const posts = await loadPostData();
+  return posts;
 }

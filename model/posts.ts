@@ -18,18 +18,23 @@ const dateFmtLong = new Intl.DateTimeFormat("es-es", {
   month: "long",
 });
 
-type Params = {
+export type PostURLParams = {
   year: string;
   month: string;
   day: string;
   slug: string;
 };
 
-export const postURLToFilename = ({ year, month, day, slug }: Params) => {
+export const postURLToFilename = ({
+  year,
+  month,
+  day,
+  slug,
+}: PostURLParams) => {
   return `${year}-${month}-${day}-${slug}.md`;
 };
 
-export const postPiecesToURL = ({ year, month, day, slug }: Params) => {
+export const postPiecesToPath = ({ year, month, day, slug }: PostURLParams) => {
   return `/${year}/${month}/${day}/${slug}`;
 };
 
@@ -37,7 +42,7 @@ const moreRecent = (p: Post, q: Post) => {
   const pdate = new Date(p.date.orig);
   const qdate = new Date(q.date.orig);
   return qdate.getTime() - pdate.getTime();
-}
+};
 
 // FIXME: Mejorar el filtro!
 const isPost = (filename: string) =>
@@ -80,7 +85,7 @@ export async function getPostDataAsJSON(filename: string): Promise<Post> {
       short: dateFmtShort.format(new Date(date)),
       long: dateFmtLong.format(new Date(date)),
     },
-    url: postPiecesToURL(pieces),
+    url: postPiecesToPath(pieces),
   };
 }
 
@@ -97,22 +102,20 @@ export async function getPostHTML(filename: string) {
   return processed.toString();
 }
 
-export async function loadPostFilenames() {
-  let files = await readdir(postsDir);
-  return files.filter(isPost);
-}
+export const loadPostFilenames = async () =>
+  (await readdir(postsDir)).filter(isPost);
 
-export async function loadPostPaths() {
-  return (await loadPostFilenames()).map((f) =>
-    postPiecesToURL(parsePostFilename(f))
-  );
-}
+export const loadPostData = async () =>
+  (await loadPostFilenames()).map(parsePostFilename);
+
+export const loadPostPaths = async () =>
+  (await loadPostData()).map(postPiecesToPath);
 
 const isFulfilled = <T>(
   p: PromiseSettledResult<T>
 ): p is PromiseFulfilledResult<T> => p.status === "fulfilled";
 
-export async function loadPosts(): Promise<Array<Post>> {
+export async function loadSortedPosts(): Promise<Array<Post>> {
   let files = await readdir(postsDir);
   let results = await Promise.allSettled(
     files.filter(isPost).map(getPostDataAsJSON)
