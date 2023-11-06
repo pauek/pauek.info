@@ -207,3 +207,8 @@ footer {
   list-style-type: none;
   margin-bottom: 0.25em;
 }
+.courses .course .content {
+  color: gray;
+  font-size: 0.8em;
+  margin-left: 0.5em;
+}
