@@ -16,7 +16,7 @@ export const Teaching = () => {
           en el <a href="https://citm.upc.edu">CITM</a>:
         </p>
         <ul className="courses">
-          {(courses as Array<Course>).reverse().map((course) => (
+          {(courses as Array<Course>).map((course) => (
             <li key={course.href} className="course">
               <a href={course.href}>{course.title}</a> 
               <span className="content">[{course.content}]</span>
