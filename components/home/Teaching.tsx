@@ -12,8 +12,8 @@ export const Teaching = () => {
       <h2>Docencia</h2>
       <div>
         <p>
-          Asignaturas en las que he participado, tanto en <a href="https://eseiaat.upc.edu">ESEIAAT</a> como
-          en el <a href="https://citm.upc.edu">CITM</a>:
+          Asignaturas en las que he participado, en <a href="https://eseiaat.upc.edu">ESEIAAT</a>, 
+          el <a href="https://citm.upc.edu">CITM</a>, y la <a href="https://fib.upc.edu">FIB</a>:
         </p>
         <ul className="courses">
           {(courses as Array<Course>).map((course) => (
